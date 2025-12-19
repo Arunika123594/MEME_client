@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import AdminDashboard from "./Dashboard/AdminDashboard";
+
 
 const AdminDashboard = () => {
   const [user, setUser] = useState(null)
