@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './Page/Home'
 import Contact from './Page/Contact'
 import SimpleLogin from './Page/SimpleLogin'
-import AdminDashboard from './Dashboard/AdminDashboard'
+import AdminDashboard from './Dashboard/AdminDashBoard'
+
 
 function MemeGenerator() {
   const [topText, setTopText] = useState('')
